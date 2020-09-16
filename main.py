@@ -13,12 +13,12 @@ def sum_n(n):
 
 def print_n(s,n):
   if (n<1):
-    print("")
+    print("\n")
   elif(n<=1):
     print(f"{s}")
   else:
     print(f"{s}")
-    n = print_n (s, n-1)
+    n = print_n(s, n-1)
 
 def run():
   n = int(input("Enter an int: "))
