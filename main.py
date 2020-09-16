@@ -13,7 +13,7 @@ def sum_n(n):
 
 def print_n(s,n):
   if (n<1):
-    print(' ')
+    print('')
   elif(n<=1):
     print(f"{s}")
   else:
