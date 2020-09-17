@@ -1,25 +1,22 @@
 # Author: Evelyn Moore eim5178@psu.edu 
-# Collaborator:
-# Collaborator:
-# Collaborator:
-# Section: 1
-# Breakout: 12
+# Collaborator: Bailey Dillow bfd5210@psu.edu
+# Collaborator: Kenleigh Leonard kml6565@psu.edu
+# Collaborator:Junyang Guan jmg7510@psu.edu
+# Section: 4
+# Breakout: 3
 
 def sum_n(n):
   if (n<=1):
-    return n
+    return 0
   else:
     return n + sum_n(n-1)
 
 def print_n(s,n):
-  if (n<1):
-    #print nothing
+  if (n==0):
     pass
-  elif(n<=1):
-    print(f"{s}")
   else:
     print(f"{s}")
-    n = print_n(s, n-1)
+    print_n(s, n-1)
 
 def run():
   n = int(input("Enter an int: "))
