@@ -2,7 +2,7 @@
 # Collaborator: Bailey Dillow bfd5210@psu.edu
 # Collaborator: Kenleigh Leonard kml6565@psu.edu
 # Collaborator:Junyang Guan jmg7510@psu.edu
-# Section: 4
+# Section: 4 
 # Breakout: 3
 
 def sum_n(n):
